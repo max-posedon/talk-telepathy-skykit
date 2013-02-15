@@ -205,42 +205,51 @@
 \frame{
     \frametitle{Empathy}
     \begin{figure}[htb]
-    \includegraphics[width=0.8\textwidth]{empathy.png}
+    \includegraphics[width=\textwidth]{empathy.png}
     \end{figure}
 }
 
 \section{Skypekit}
 \frame{
-    \frametitle{Skypekit}
+    \frametitle{Skype\uncover<2>{kit}}
     
+    \pause
+
     \begin{figure}[htb]
-    \includegraphics[width=\textwidth]{skypekit.jpg}
+    \includegraphics[width=0.8\textwidth]{skypekit.jpg}
     \end{figure}
 
     \begin{itemize}
+    \item headless version of Skype
     \item different OS
     \item different arches for Linux
-    \item audio/video
-    \item not free
+    \item audio, video, ...
+    \item not free (\$5 for developer license)
     \end{itemize}
 }
 
+\section{telepathy-skykit}
 \frame{
-    \frametitle{telepathy-skykit}
+    \frametitle{Telepathy Skykit}
 
     \begin{columns}
 
-    \begin{column}{0.6\textwidth}
+    \begin{column}{0.5\textwidth}
     \begin{figure}[htb]
-    \includegraphics[width=\textwidth]{ktpskype.png}
+    \includegraphics[width=\textwidth]{skykit.png}
     \end{figure}
     \end{column}
 
-    \begin{column}{0.4\textwidth}
+    \begin{column}{0.5\textwidth}
     \begin{itemize}
+    \item protocol service
+    \item connection manager
+    \item telepathy based
+    \item skypekit based
     \item python
     \item telepathy-python
-    \item skypekit based
+    \item open source
+    \item no license (now)
     \end{itemize}
     \end{column}
     
@@ -248,15 +257,23 @@
 }
 
 \frame{
-    \frametitle{Telepathy Skypekit}
+    \frametitle{Telepathy Skykit}
     \begin{columns}
 
     \begin{column}{0.5\textwidth}
+    \begin{figure}[htb]
+    \includegraphics[width=0.9\textwidth]{ktpskype.png}
+    \end{figure}
+    \end{column}
+    
+    \pause
+
+    \begin{column}{0.25\textwidth}
     \begin{block}{Supports}
     \begin{itemize}
     \item presence
     \item contact list
-    \item one-to-one chat
+    \item 1:1 chat
     \item avatar
     \item vcard
     \end{itemize}
@@ -265,7 +282,7 @@
     
     \pause
 
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.25\textwidth}
     \begin{block}{Future plans}
     \begin{itemize}
     \item MUC
@@ -279,7 +296,6 @@
     
     \end{columns}
 }
-
 
 \frame{
     \frametitle{More Info}
